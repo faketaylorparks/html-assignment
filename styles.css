@@ -1,0 +1,62 @@
+body
+{
+color: black;
+background-color: orange;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+padding-left: 50px;
+cursor: url('https://78.media.tumblr.com/avatar_2efae56ecb62_128.pnj'), auto;
+
+}
+
+img
+{
+	padding-left: 300px
+}
+
+h1  
+{
+font-size: 50px;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+}
+
+p  
+{
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+text-decoration: none;
+}
+
+ul 
+{
+background: pink;
+padding: 10px;
+margin-left: 100px;
+font-size: 15px;
+list-style-type: circle;
+
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th, td, table 
+{
+ height: 35px;
+ vertical-align: top;
+ text-align: center;
+ text-shadow: 2px 1px pink;
+ border-collapse: collapse
+ border: 1px solid black;
+ padding-left: 100px;
+}
+
+
+a {color: blue; text-decoration: underline;}
+a:visited {color: darkred; text-decoration: none}
+a:active {color: #666666; text-decoration: none}
+a:hover {color: gray; text-decoration: underline}
